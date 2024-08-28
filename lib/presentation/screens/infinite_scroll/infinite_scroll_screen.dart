@@ -18,7 +18,6 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     scrollController.addListener(() {
       if ((scrollController.position.pixels + 500) >=

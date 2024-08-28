@@ -16,7 +16,7 @@ class ButtonsScreen extends StatelessWidget {
         onPressed: () {
           context.pop();
         },
-        child: Icon(Icons.arrow_back),
+        child: const Icon(Icons.arrow_back),
       ),
     );
   }
@@ -108,9 +108,9 @@ class CustomButtom extends StatelessWidget {
         color: colors.primary,
         child: InkWell(
           onTap: () {},
-          child: Padding(
+          child: const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-              child: const Text(
+              child: Text(
                 "Hola mundo",
                 style: TextStyle(color: Colors.white),
               )),
